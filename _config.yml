@@ -1,18 +1,28 @@
-title: Bowen Zhang’s Blog
-description: 记录风电机理研究、PINN 推断、数模实验、代码实践与科研路线
-theme: jekyll-theme-minimal
+title: Bowen Zhang Blog
+description: 风能研究 / PINN / 控制 / ROM / SOWFA
+
+theme: null
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+paginate: 10
+timezone: Asia/Shanghai
+
 markdown: kramdown
-show_downloads: false
-
-# 导航栏
-nav_pages:
-  - index.md
-  - posts.md
-  - about.md
-
-# 自定义样式
-sass:
-  style: compressed
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
+
+lang: zh-CN
+
+# 顶部导航
+navbar:
+  - title: 主页
+    url: /
+  - title: 文章
+    url: /posts/
+  - title: 关于我
+    url: /about/
