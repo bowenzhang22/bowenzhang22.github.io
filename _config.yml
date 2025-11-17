@@ -1,3 +1,18 @@
+title: Bowen Zhang’s Blog
+description: 记录风电机理研究、PINN 推断、数模实验、代码实践与科研路线
 theme: jekyll-theme-minimal
-title: 我的博客
-description: 风能研究的笔记与文章
+markdown: kramdown
+show_downloads: false
+
+# 导航栏
+nav_pages:
+  - index.md
+  - posts.md
+  - about.md
+
+# 自定义样式
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-feed
