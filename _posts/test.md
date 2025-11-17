@@ -1,0 +1,32 @@
+这是第一篇文章，测试一下md格式。
+
+# 一级标题
+## 二级标题
+### 三级标题
+
+行间公式
+$$
+\begin{align}
+	\frac{\partial u_i}{\partial t} + {u_j}\frac{\partial u_i}{\partial x_j} &= \frac{\partial p}{\partial x_i} - \frac{1}{Re}{\frac{\partial {u_i}^2}{\partial {x_j}{x_j}}}\\
+	\\
+	\frac{\partial u_i}{\partial x_i}
+ &= 0
+ \end{align}
+$$
+
+警示框
+> [!note]
+> 今天风和日丽。
+
+代码块
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.linspace(0,2*np.pi,1000) #test
+y = np.sin(x)
+plt.figure()
+plt.plot(x,y)
+plt.show()
+```
+
